@@ -25,7 +25,7 @@ namespace csharp_rpg_1
             //human
             public string name = "Human";
             string description = "The most prevalent of the races, also the shortest lived.";
-            int hp = 20;
+            public int hp = 20;
             public int mp = 20;
             public int strength = 5;
             public int dexterity = 5;

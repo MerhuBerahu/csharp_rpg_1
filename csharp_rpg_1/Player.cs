@@ -14,7 +14,7 @@ namespace csharp_rpg_1
         public Player()
         {
             this.name = "George";
-            this.race = new Races.Human();
+            this.race = new Races.Human(); //this is the issue I guess
             Console.WriteLine("Race HP = " + this.race.hp);
         }
 

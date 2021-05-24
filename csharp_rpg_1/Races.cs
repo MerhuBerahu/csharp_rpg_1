@@ -9,8 +9,8 @@ namespace csharp_rpg_1
     public class Races
     {
         public string name;
-        public string description;
-        public int hp;
+        public string description = "default";
+        public int hp = 0;
         public int mp;
         public int strength;
         public int dexterity;
@@ -24,7 +24,7 @@ namespace csharp_rpg_1
         {
             //human
             public string name = "Human";
-            string description = "The most prevalent of the races, also the shortest lived.";
+            public string description = "The most prevalent of the races, also the shortest lived.";
             public int hp = 20;
             public int mp = 20;
             public int strength = 5;
